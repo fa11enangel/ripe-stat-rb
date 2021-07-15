@@ -11,10 +11,19 @@ use and extend it for your needs.
 ### Create the client
 
 ```ruby
-require 'ripe-stat/client'
+require "ripe-stat/client"
 
 # Get a new instance to work on it
 client = RipeStat::Client.new
+```
+
+### Whois Data
+
+```ruby
+require "ripe-stat/client"
+client = RipeStat::Client.new
+whois = client.whois("140.78.90.50")
+p whois.country # AT
 ```
 
 ## Development
