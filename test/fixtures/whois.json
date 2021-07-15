@@ -1,0 +1,216 @@
+{
+    "messages": [
+        [
+            "info",
+            "IP address has been converted to a prefix"
+        ]
+    ],
+    "see_also": [],
+    "version": "4.1",
+    "data_call_status": "supported - connecting to ursa",
+    "cached": true,
+    "data": {
+        "records": [
+            [
+                {
+                    "key": "inetnum",
+                    "value": "140.78.0.0/16",
+                    "details_link": "https://stat.ripe.net/140.78.0.0/16"
+                },
+                {
+                    "key": "netname",
+                    "value": "JKU-LAN",
+                    "details_link": null
+                },
+                {
+                    "key": "descr",
+                    "value": "Johannes Kepler University",
+                    "details_link": null
+                },
+                {
+                    "key": "descr",
+                    "value": "Campus LAN",
+                    "details_link": null
+                },
+                {
+                    "key": "country",
+                    "value": "AT",
+                    "details_link": null
+                },
+                {
+                    "key": "org",
+                    "value": "ORG-JKU1-RIPE",
+                    "details_link": null
+                },
+                {
+                    "key": "admin-c",
+                    "value": "ULAC1-RIPE",
+                    "details_link": "https://rest.db.ripe.net/ripe/person-role/ULAC1-RIPE"
+                },
+                {
+                    "key": "tech-c",
+                    "value": "ULNA1-RIPE",
+                    "details_link": "https://rest.db.ripe.net/ripe/person-role/ULNA1-RIPE"
+                },
+                {
+                    "key": "status",
+                    "value": "LEGACY",
+                    "details_link": null
+                },
+                {
+                    "key": "remarks",
+                    "value": "Please send abuse reports to abuse@jku.at",
+                    "details_link": null
+                },
+                {
+                    "key": "mnt-by",
+                    "value": "AS1205-MNT",
+                    "details_link": "https://rest.db.ripe.net/ripe/mntner/AS1205-MNT"
+                },
+                {
+                    "key": "mnt-by",
+                    "value": "ACONET-LIR-MNT",
+                    "details_link": "https://rest.db.ripe.net/ripe/mntner/ACONET-LIR-MNT"
+                },
+                {
+                    "key": "created",
+                    "value": "1970-01-01T00:00:00Z",
+                    "details_link": null
+                },
+                {
+                    "key": "last-modified",
+                    "value": "2019-12-04T13:11:26Z",
+                    "details_link": null
+                },
+                {
+                    "key": "source",
+                    "value": "RIPE",
+                    "details_link": null
+                }
+            ]
+        ],
+        "irr_records": [
+            [
+                {
+                    "key": "route",
+                    "value": "140.78.0.0/16",
+                    "details_link": "https://stat.ripe.net/140.78.0.0/16"
+                },
+                {
+                    "key": "descr",
+                    "value": "JKU-LAN",
+                    "details_link": null
+                },
+                {
+                    "key": "origin",
+                    "value": "1205",
+                    "details_link": "https://stat.ripe.net/AS1205"
+                },
+                {
+                    "key": "mnt-by",
+                    "value": "AS1205-MNT",
+                    "details_link": "https://rest.db.ripe.net/ripe/mntner/AS1205-MNT"
+                },
+                {
+                    "key": "mnt-by",
+                    "value": "ACONET-LIR-MNT",
+                    "details_link": "https://rest.db.ripe.net/ripe/mntner/ACONET-LIR-MNT"
+                },
+                {
+                    "key": "created",
+                    "value": "1970-01-01T00:00:00Z",
+                    "details_link": null
+                },
+                {
+                    "key": "last-modified",
+                    "value": "2013-08-08T14:53:13Z",
+                    "details_link": null
+                },
+                {
+                    "key": "source",
+                    "value": "RIPE",
+                    "details_link": null
+                }
+            ],
+            [
+                {
+                    "key": "route",
+                    "value": "140.78.0.0/16",
+                    "details_link": "https://stat.ripe.net/140.78.0.0/16"
+                },
+                {
+                    "key": "descr",
+                    "value": "JKU-LAN",
+                    "details_link": null
+                },
+                {
+                    "key": "origin",
+                    "value": "1205",
+                    "details_link": "https://stat.ripe.net/AS1205"
+                },
+                {
+                    "key": "mnt-by",
+                    "value": "AS1205-MNT",
+                    "details_link": null
+                },
+                {
+                    "key": "mnt-by",
+                    "value": "ACONET-LIR-MNT",
+                    "details_link": null
+                },
+                {
+                    "key": "created",
+                    "value": "1970-01-01T00:00:00Z",
+                    "details_link": null
+                },
+                {
+                    "key": "last-modified",
+                    "value": "2013-08-08T14:53:13Z",
+                    "details_link": null
+                },
+                {
+                    "key": "source",
+                    "value": "RIPE",
+                    "details_link": null
+                },
+                {
+                    "key": "remarks",
+                    "value": "* THIS OBJECT IS MODIFIED",
+                    "details_link": null
+                },
+                {
+                    "key": "remarks",
+                    "value": "* Please note that all data that is generally regarded as personal",
+                    "details_link": null
+                },
+                {
+                    "key": "remarks",
+                    "value": "* data has been removed from this object.",
+                    "details_link": null
+                },
+                {
+                    "key": "remarks",
+                    "value": "* To view the original object, please query the RIPE Database at:",
+                    "details_link": null
+                },
+                {
+                    "key": "remarks",
+                    "value": "* http://www.ripe.net/whois",
+                    "details_link": null
+                }
+            ]
+        ],
+        "authorities": [
+            "ripe"
+        ],
+        "resource": "140.78.90.50",
+        "query_time": "2021-07-15T14:02:00"
+    },
+    "query_id": "20210715140316-c9af8d93-9bf6-4733-a34b-62c6dbbf3a83",
+    "process_time": 3,
+    "server_id": "app119",
+    "build_version": "live.2021.7.13.179",
+    "status": "ok",
+    "status_code": 200,
+    "time": "2021-07-15T14:03:16.341387"
+}
