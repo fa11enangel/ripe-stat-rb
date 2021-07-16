@@ -15,5 +15,11 @@ module RipeStat
     def to_json
       @json
     end
+
+    private
+
+    def data
+      @json["data"]
+    end
   end
 end
