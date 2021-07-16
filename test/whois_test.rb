@@ -6,10 +6,10 @@ require "date"
 # Test Whois
 class WhoisTest < MiniTest::Test
   def setup
-    File.open("test/fixtures/whois.json", "r") { |file|
+    File.open("test/fixtures/whois/140.78.90.50.json", "r") do |file|
       json = JSON.parse(file.read)
       @whois = RipeStat::Whois.new(json)
-    }
+    end
   end
 
   def test_creating_object

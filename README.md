@@ -31,7 +31,7 @@ p whois.country # AT
 Check out the repository and run all tests to be sure they are working:
 
 ```sh
-$ ruby -Ilib test/*_test.rb
+$ rake test
 ```
 
 ## License
