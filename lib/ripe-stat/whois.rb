@@ -41,9 +41,5 @@ module RipeStat
     def records
       data["records"]
     end
-
-    def data
-      @json["data"]
-    end
   end
 end
