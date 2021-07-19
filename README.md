@@ -2,6 +2,8 @@
 
 This is a ruby client for the stat.ripe.net data service.
 
+![test](https://github.com/fa11enangel/ripe-stat-rb/actions/workflows/test.yml/badge.svg)
+
 ## Usage
 
 This is a simple API wrapper. If you understand the API and the data, you can
