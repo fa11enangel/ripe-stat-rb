@@ -1,0 +1,27 @@
+{
+    "messages": [],
+    "see_also": [],
+    "version": "1.3",
+    "data_call_status": "supported - based on 2.1",
+    "cached": true,
+    "data": {
+        "type": "as",
+        "resource": "1205",
+        "block": {
+            "resource": "1-1876",
+            "desc": "Assigned by ARIN",
+            "name": "IANA 16-bit Autonomous System (AS) Numbers Registry"
+        },
+        "holder": "JKU-LINZ-AS - University Linz",
+        "announced": true,
+        "query_starttime": "2021-07-19T00:00:00",
+        "query_endtime": "2021-07-19T00:00:00"
+    },
+    "query_id": "20210719114105-dca32059-adf7-4533-9fb5-3b1231594456",
+    "process_time": 4,
+    "server_id": "app149",
+    "build_version": "live.2021.7.12.178",
+    "status": "ok",
+    "status_code": 200,
+    "time": "2021-07-19T11:41:05.300981"
+}

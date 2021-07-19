@@ -5,7 +5,7 @@ require "json"
 module RipeStat
   # run all the requests for us
   class HttpRequest
-    ALLOWED_DATA_CALLS = %i[whois network-info]
+    ALLOWED_DATA_CALLS = %i[whois network-info as-overview]
 
     def lookup(data_call, resource, params = {})
       # if !ALLOWED_DATA_CALLS.include?(data_call)
@@ -30,12 +30,14 @@ module RipeStat
 
       case response
       when Net::HTTPOK
-        # p "=========================="
-        # p response.body
-        # File.open("output.json", "w") { |file|
-        #   file.write(response.body)
-        # }
-        # p "=========================="
+        if ENV["DEBUG"]
+          p "=========================="
+          p response.body
+          File.open("output.json", "w") { |file|
+            file.write(response.body)
+          }
+          p "=========================="
+        end
 
         JSON.parse(response.body)
       else
