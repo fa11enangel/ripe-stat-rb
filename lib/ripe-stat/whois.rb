@@ -26,6 +26,13 @@ module RipeStat
       Date.parse(value)
     end
 
+    def created
+      value = record_value("created")
+      return value unless value
+
+      Date.parse(value)
+    end
+
     private
 
     def record_value(key)

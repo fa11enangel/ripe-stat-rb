@@ -1,0 +1,121 @@
+{
+    "messages": [],
+    "see_also": [],
+    "version": "4.1",
+    "data_call_status": "supported - connecting to ursa",
+    "cached": false,
+    "data": {
+        "records": [
+            [
+                {
+                    "key": "aut-num",
+                    "value": "1205",
+                    "details_link": "https://stat.ripe.net/AS1205"
+                },
+                {
+                    "key": "as-name",
+                    "value": "JKU-LINZ-AS",
+                    "details_link": null
+                },
+                {
+                    "key": "org",
+                    "value": "ORG-JKU1-RIPE",
+                    "details_link": null
+                },
+                {
+                    "key": "descr",
+                    "value": "University Linz",
+                    "details_link": null
+                },
+                {
+                    "key": "descr",
+                    "value": "Linz, Austria",
+                    "details_link": null
+                },
+                {
+                    "key": "descr",
+                    "value": "AT",
+                    "details_link": null
+                },
+                {
+                    "key": "import",
+                    "value": "from AS1853 action pref=100; accept ANY",
+                    "details_link": null
+                },
+                {
+                    "key": "import",
+                    "value": "from AS12382 action pref=100; accept AS12382",
+                    "details_link": null
+                },
+                {
+                    "key": "export",
+                    "value": "to AS1853 announce AS1205",
+                    "details_link": null
+                },
+                {
+                    "key": "export",
+                    "value": "to AS12382 announce AS1205",
+                    "details_link": null
+                },
+                {
+                    "key": "default",
+                    "value": "to AS1853 action pref=100; networks ANY",
+                    "details_link": null
+                },
+                {
+                    "key": "admin-c",
+                    "value": "ULAC1-RIPE",
+                    "details_link": "https://rest.db.ripe.net/ripe/person-role/ULAC1-RIPE"
+                },
+                {
+                    "key": "tech-c",
+                    "value": "ULNA1-RIPE",
+                    "details_link": "https://rest.db.ripe.net/ripe/person-role/ULNA1-RIPE"
+                },
+                {
+                    "key": "status",
+                    "value": "LEGACY",
+                    "details_link": null
+                },
+                {
+                    "key": "mnt-by",
+                    "value": "AS1205-MNT",
+                    "details_link": "https://rest.db.ripe.net/ripe/mntner/AS1205-MNT"
+                },
+                {
+                    "key": "mnt-by",
+                    "value": "ACONET-LIR-MNT",
+                    "details_link": "https://rest.db.ripe.net/ripe/mntner/ACONET-LIR-MNT"
+                },
+                {
+                    "key": "created",
+                    "value": "2002-09-03T14:20:59Z",
+                    "details_link": null
+                },
+                {
+                    "key": "last-modified",
+                    "value": "2017-11-15T09:14:26Z",
+                    "details_link": null
+                },
+                {
+                    "key": "source",
+                    "value": "RIPE",
+                    "details_link": null
+                }
+            ]
+        ],
+        "irr_records": [],
+        "authorities": [
+            "ripe"
+        ],
+        "resource": "1205",
+        "query_time": "2021-07-19T12:48:00"
+    },
+    "query_id": "20210719124804-7acc9c0f-112d-416f-9029-8262b2007c16",
+    "process_time": 60,
+    "server_id": "app145",
+    "build_version": "live.2021.7.13.179",
+    "status": "ok",
+    "status_code": 200,
+    "time": "2021-07-19T12:48:04.443208"
+}

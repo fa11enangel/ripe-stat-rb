@@ -7,8 +7,15 @@ class ClientTest < Minitest::Test
     @client = RipeStat::Client.new
   end
 
-  def test_whois
+  def test_whois_ip
     whois = @client.whois("140.78.90.50")
+
+    assert whois
+    assert whois.to_json.length > 5
+  end
+
+  def test_whois_asn_16bit
+    whois = @client.whois("AS1205")
 
     assert whois
     assert whois.to_json.length > 5
