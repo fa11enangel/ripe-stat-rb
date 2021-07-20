@@ -1,14 +1,18 @@
 # Ripe Stat for Ruby
 
-This is a ruby client for the stat.ripe.net data service.
+This is a ruby client for the stat.ripe.net data service. Check out the
+[About](https://stat.ripe.net/about/) page for more information.
 
 ![test](https://github.com/fa11enangel/ripe-stat-rb/actions/workflows/test.yml/badge.svg)
+
+
+**ATTENTION:** This is not an official client and it is not feature complete. I
+only implemented the stuff that I just investigated.
 
 ## Usage
 
 This is a simple API wrapper. If you understand the API and the data, you can
 use and extend it for your needs.
-
 
 ### Create the client
 
